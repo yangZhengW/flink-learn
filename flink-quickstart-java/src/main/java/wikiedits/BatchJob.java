@@ -81,6 +81,7 @@ public class BatchJob {
 				Collections.singletonList("**"),
 				Arrays.asList("**/file.bin")
 		);
+		
 		System.out.println(Arrays.toString(GlobFilePathFilter.class.getDeclaredFields()));
 		format.setFilesFilter(filesFilter);
 
