@@ -1,0 +1,11 @@
+build/
+.gradle/
+.settings/
+.idea/
+*.iml
+.classpath
+.project
+*.swp
+out/
+venv/
+*.pyc
